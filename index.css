@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.carousel-container{
+    /* width: 60%; */
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    border: 5px solid black;
+}
+
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+img{
+    width: 1000px;
+}
+
+#buttonDiv{
+    margin: 40px auto;
+    width: 1000px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+button{
+    width: 200px;
+    margin: 20px;
+    height: 25px;
+}
+
